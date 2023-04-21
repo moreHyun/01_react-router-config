@@ -1,17 +1,12 @@
+/* 앱 기본 설정 (향후 동일) 
+1. 불필요한 파일들을 제거하고 App.js와 index.js 파일만 남겨 둔다.
+2. index.js 파일의 기본 상태를 아래와 같이 만들어 화면 랜더링을 확인한다. */
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
     <App />
-  </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
